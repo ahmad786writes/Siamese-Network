@@ -1,5 +1,6 @@
 # Siamese Network with Fashion MNIST and Euclidean Distance
 
+![](./Results_simese_network.png)
 This repository implements a **Siamese Network** on the **Fashion MNIST** dataset. The network is trained to determine whether two input images belong to the same class by calculating their **Euclidean distance** in feature space.
 
 ## Table of Contents
@@ -37,14 +38,11 @@ During evaluation, pairs of test images are passed through the network, and thei
 
 Below are some visualizations from the model training process, including sample pairs from the Fashion MNIST dataset and the learned distance representations.
 
-### Sample Pair 1
-![Sample Pair 1](./path_to_image1.png)
+### Base Model
+![](./base-model.png)
 
-### Sample Pair 2
-![Sample Pair 2](./path_to_image2.png)
-
-### Learned Feature Space
-![Learned Feature Space](./path_to_image3.png)
+### Outer-model
+![](./outer-model.png)
 
 ## How to Run
 
