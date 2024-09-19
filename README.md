@@ -36,7 +36,7 @@ During evaluation, pairs of test images are passed through the network, and thei
 
 ## Visualizations
 
-Below are some visualizations from the model training process, including sample pairs from the Fashion MNIST dataset and the learned distance representations.
+Below are some visualizations from the model Architecture.
 
 ### Base Model
 ![](./base-model.png)
